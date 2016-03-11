@@ -67,15 +67,26 @@ html {
     margin: 0 auto;
 }
 
-.content {
-    background: #e5e5e5;
-    padding: 16px 16px;
-    display: block;
-}
-
 .container {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
+}
+
+.left-side {
+  float: left;
+  display: block;
+  width:60%;
+}
+
+.right-side {
+  float: left;
+  display:block;
+  width: 40%;
+  padding-left: 25px;
+}
+
+.thumbnail {
+  margin-bottom: 7px;
 }
 
