@@ -14,7 +14,7 @@ html {
 
 .image-container {
   padding-top: 80px;
-  height: 400px;
+  height: 250px;
   position: relative;
   background-repeat: no-repeat;
   color: #fff;
@@ -23,12 +23,18 @@ html {
 .index-image {
   height: 650px;
   background: url("../img/city.jpg");
-  background: url("../img/city.jpg");
 }
 
 .about-image {
-  background: url("../img/city.jpg");
-  background: url("../img/city.jpg");
+  background: url("../img/pr.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.resume-image {
+  background: url("../img/tech.jpg");
+  background-size: cover;
+  background-position: 50% 30%;
 }
 
 .index-text {
@@ -90,3 +96,6 @@ html {
   margin-bottom: 7px;
 }
 
+.down-padding {
+  padding-bottom: 50px;
+}
