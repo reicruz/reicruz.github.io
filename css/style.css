@@ -14,19 +14,19 @@ html {
 
 .image-container {
   padding-top: 80px;
-  height: 100px;
+  height: 400px;
   position: relative;
   background-repeat: no-repeat;
   color: #fff;
 }
 
-.index-content {
+.index-image {
   height: 650px;
   background: url("../img/city.jpg");
   background: url("../img/city.jpg");
 }
 
-.about-content {
+.about-image {
   background: url("../img/city.jpg");
   background: url("../img/city.jpg");
 }
@@ -38,7 +38,7 @@ html {
     margin-right: 2.35765%;
     width: 82.94039%;
     padding: 12px;
-    margin-top: 80px;
+    margin-top: 110px;
 }
 
 .personal-description {
@@ -52,8 +52,8 @@ html {
     width: 100%;
 }
 
-.about-area {
-    background-color: #fff;
+.content-area {
+    background-color: #e5e5e5;
     text-align: center;
     width: 100%;
 }
@@ -63,11 +63,11 @@ html {
     display: block;
     color: #4A4A4A;
     font-size: 24px;
-    padding: 30px 0;
+    padding: 20px 0;
     margin: 0 auto;
 }
 
-.about-me {
+.content {
     background: #e5e5e5;
     padding: 16px 16px;
     display: block;
@@ -78,3 +78,4 @@ html {
     margin-right: auto;
     text-align: left;
 }
+
