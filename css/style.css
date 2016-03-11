@@ -28,7 +28,7 @@ html {
 .about-image {
   background: url("../img/pr.jpg");
   background-size: cover;
-  background-position: center;
+  background-position: 50% 20%;
 }
 
 .resume-image {
