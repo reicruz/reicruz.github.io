@@ -12,14 +12,23 @@ html {
     -ms-text-size-adjust: 100%;
 }
 
-.index-content {
+.image-container {
   padding-top: 80px;
-  height: 650px;
+  height: 100px;
   position: relative;
-  background: url("../img/city.jpg");
-  background: url("../img/city.jpg");
   background-repeat: no-repeat;
   color: #fff;
+}
+
+.index-content {
+  height: 650px;
+  background: url("../img/city.jpg");
+  background: url("../img/city.jpg");
+}
+
+.about-content {
+  background: url("../img/city.jpg");
+  background: url("../img/city.jpg");
 }
 
 .index-text {
