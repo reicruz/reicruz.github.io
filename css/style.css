@@ -100,6 +100,10 @@ html {
   padding-bottom: 50px;
 }
 
+.up-padding {
+  padding-top: 30px;
+}
+
 .ibmLogo {
   height:80px;
   width:180px;
