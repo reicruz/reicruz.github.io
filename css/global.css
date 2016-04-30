@@ -11,6 +11,11 @@ html {
   -ms-text-size-adjust: 100%;
 }
 
+img {
+  border: 0;
+  vertical-align: middle;
+}
+
 .container {
   width: 100vw;
   max-width:100%;
@@ -35,11 +40,26 @@ html {
   line-height: 35px;
 }
 
+.two-boxes {
+  display: table;
+}
+
+.box {
+  display: table-cell;
+  width: 50%;
+}
+
+.box-image {
+  width: 100%;
+}
+
+.box-text {
+
+}
+
 @media (max-width: 900px) {
   .container {
     min-height: initial;
-    width: 100vw;
-    max-width:100%;
   }
   .cover-image {
     width: auto;
