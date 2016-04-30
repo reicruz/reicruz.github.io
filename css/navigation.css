@@ -1,3 +1,9 @@
+/*
+css/navigation.css
+CSS styling for bootstrap navigation bar.
+*/
+
+
 /* Centers the header elements */
 .navbar-nav, .nav-justified > li {
   float: none;
@@ -22,7 +28,9 @@
   background-color: #2c3e50;
 }
 
-/* Transparent navbar and always in hamburger mode */
+/*======================================================================= 
+Transparent navbar and always in hamburger mode 
+=========================================================================*/
 .navbar-default {
   background: none;    
   border: 0;
@@ -57,6 +65,7 @@
 .navbar-nav > li, .navbar-header {
   float:none; 
 }
+/*==========================================================================*/
 
 /* 
   ============================================================================

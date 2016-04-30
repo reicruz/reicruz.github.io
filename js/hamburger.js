@@ -1,4 +1,5 @@
 // Onclick listener to change colors on navigation menu
+
 document.getElementById("hamburger").onclick = function click() {
     var hamburger = document.getElementById("hamburger");
     var clicked = hamburger.getAttribute("clicked");
