@@ -1,0 +1,51 @@
+/*
+css/about.css
+CSS styling for About section elements and components
+*/
+
+
+.education-section.container-header {
+  background-color: #f1c40f;
+}
+
+.gt-campus {
+  background-image: url("../img/tech-cover.jpg");
+}
+
+.gt-cover-text {
+  position: absolute;
+  width: 100%;
+  left: 5%;
+  top: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.gt-cover-text.title {
+  top: 0;
+  font-size: 28px;
+  padding-top: 20px
+}
+
+.gt-cover-text.major {
+  top: 10%;
+  font-size: 16px;
+}
+
+@media (max-width: 810px) {
+  .gt-cover-text.title {
+    font-size: 16px;
+  }
+  .gt-cover-text.major {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 610px) {
+  .gt-cover-text.title {
+    font-size: 16px;
+  }
+  .gt-cover-text.major {
+    font-size: 12px;
+  }
+}

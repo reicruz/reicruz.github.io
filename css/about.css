@@ -5,12 +5,7 @@ CSS styling for About section elements and components
 
 
 .about-section.container-header {
-  color: #fff;
   background-color: #2980b9;
-  font-weight: 300;
-  letter-spacing: 5px;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 .intro {
