@@ -1,3 +1,12 @@
 .about-section.container-header {
+  color: #fff;
   background-color: #2980b9;
+  font-weight: 300;
+  letter-spacing: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.about-section.intro {
+  height: 600px;
 }
