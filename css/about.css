@@ -9,7 +9,8 @@ CSS styling for About section elements and components
 }
 
 .intro {
-  height: 700px;
+  height: 600px;
+  min-height: 300px;
 }
 
 .intro-text {
@@ -20,7 +21,7 @@ CSS styling for About section elements and components
 
 .social-buttons {
   text-align: center;
-  margin: 70px auto 20px auto;
+  margin: 100px auto auto auto;
 }
 
 
