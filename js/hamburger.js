@@ -1,3 +1,4 @@
+// Onclick listener to change colors on navigation menu
 document.getElementById("hamburger").onclick = function click() {
     var hamburger = document.getElementById("hamburger");
     var clicked = hamburger.getAttribute("clicked");
@@ -20,11 +21,3 @@ document.getElementById("hamburger").onclick = function click() {
         }, 300);
     }
 }
-
-
-// Change hamburger color when menu collapsed
-// var iconBars = document.querySelectorAll(".icon-bar");
- 
-// for (var i = 0; i < iconBars.length; i++) {
-//     iconBars[i].style.backgroundColor = #fff;
-// }
