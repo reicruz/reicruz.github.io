@@ -12,40 +12,37 @@ CSS styling for About section elements and components
   background-image: url("../img/tech-cover.jpg");
 }
 
-.gt-cover-text {
+.gt-cover-text-wrapper {
   position: absolute;
-  width: 100%;
-  left: 5%;
-  top: 0;
+  width:100%;
+  height: 100%;
+  top:0;
+}
+.gt-cover-text {
+  position: relative;
+  padding-left: 30px;
   text-align: left;
   text-transform: uppercase;
+  padding-top: 30px;
+  font-size: 18px;
 }
 
-.gt-cover-text.title {
-  top: 0;
-  font-size: 28px;
-  padding-top: 20px
-}
-
-.gt-cover-text.major {
-  top: 10%;
-  font-size: 16px;
-}
-
-@media (max-width: 810px) {
-  .gt-cover-text.title {
-    font-size: 16px;
+@media (max-width: 735px) {
+  .gt-cover-text {
+    font-size: 14px;
   }
-  .gt-cover-text.major {
+}
+
+@media (max-width: 513px) {
+  .gt-cover-text {
     font-size: 12px;
+    color: #fff;
   }
-}
-
-@media (max-width: 610px) {
-  .gt-cover-text.title {
-    font-size: 16px;
-  }
-  .gt-cover-text.major {
-    font-size: 12px;
+  .gt-cover-text-wrapper {
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top:0;
+    background-color: rgba(0,0,0,0.25);
   }
 }
