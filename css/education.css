@@ -8,16 +8,13 @@ CSS styling for About section elements and components
   background-color: #f1c40f;
 }
 
-.gt-campus {
-  background-image: url("../img/tech-cover.jpg");
-}
-
 .gt-cover-text-wrapper {
   position: absolute;
   width:100%;
   height: 100%;
   top:0;
 }
+
 .gt-cover-text {
   position: relative;
   padding-left: 30px;
@@ -27,9 +24,34 @@ CSS styling for About section elements and components
   font-size: 18px;
 }
 
+.gt-text-box {
+  background-color: #f1c40f; 
+}
+
+.gt-text {
+  text-align: left;
+  margin: 5% 5% 5% 5%;
+}
+
+@media (max-width: 535px) {
+    .gt-text > ul {
+      display: none;
+    }
+}
+
 @media (max-width: 735px) {
   .gt-cover-text {
     font-size: 14px;
+  }
+
+  .gt-text {
+    font-size: 14px;
+    letter-spacing: .25px;
+    line-height: 20px;
+  }
+
+  .text-box {
+    vertical-align: top;
   }
 }
 

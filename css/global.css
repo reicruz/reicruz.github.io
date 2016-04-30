@@ -65,14 +65,16 @@ strong {
 .box {
   display: table-cell;
   width: 50%;
+  min-width: 200px;
 }
 
-.box-image {
+.box-image,
+.box-text {
   width: 100%;
 }
 
-.box-text {
-
+.text-box {
+  vertical-align: middle;
 }
 
 .container-img-overlay {
