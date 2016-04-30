@@ -1,4 +1,4 @@
-body, html { 
+body, html {
   font-size: 100%;
   padding: 0;
   margin: 0;
@@ -25,6 +25,14 @@ html {
   width: 100%;
   text-align: center;
   padding: 45px 0px 45px 0px;
+}
+
+.container-text {
+  margin: 0px 0px 0px 0px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #2c3e50;
+  line-height: 35px;
 }
 
 @media (max-width: 900px) {
