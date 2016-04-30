@@ -30,8 +30,8 @@ CSS styling for Cover section elements and components.
   top:23%;
 }
 
-@media (max-width: 344px) {
+@media (max-width: 334px) {
   .cover-container-title.occupation {
-    top: 29%;
+    top: 30%;
   }
 }
