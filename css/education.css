@@ -33,6 +33,23 @@ CSS styling for About section elements and components
   margin: 5% 5% 5% 5%;
 }
 
+.gpa {
+  display: none;
+}
+
+@media (max-width: 350px) { 
+  .gpa {
+    display: inline;
+    font-size:18px;
+    position: absolute;
+    top: 45%;
+    left: 60%;
+  }
+  .gt-paragraph {
+    display: none;
+  }
+}
+
 @media (max-width: 535px) {
     .gt-text > ul {
       display: none;
