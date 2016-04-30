@@ -10,7 +10,8 @@ CSS styling for bootstrap navigation bar.
 }
 
 /* Navbar text color */
-.navbar-default .navbar-nav > li > a {
+.navbar-default .navbar-nav > li > a, 
+.navbar-default .navbar-nav > li > a:visited {
   color: #fff;
   font-size: 14px;
   font-weight: 300;
