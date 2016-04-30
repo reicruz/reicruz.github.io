@@ -21,9 +21,20 @@ html {
   overflow: hidden;
 }
 
+.container-header {
+  width: 100%;
+  text-align: center;
+  padding: 90px 0 0 0;
+}
+
 @media (max-width: 900px) {
   .container {
     min-height: initial;
+    width: 100vw;
+    max-width:100%;
+  }
+  .cover-image {
+    width: auto;
   }
 }
 
