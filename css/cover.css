@@ -1,0 +1,30 @@
+.cover-image {
+  height: 100vh;
+}
+
+.cover-container-text {
+  position: absolute;
+  width: 100%;
+  color: #2c3e50;
+  font-weight: 300;
+  letter-spacing: 8px;
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.cover-container-text.name {
+  font-size: 30px;
+  top: 16%;
+}
+
+.cover-container-text.occupation {
+  font-size: 15px;
+  top:23%;
+}
+
+@media (max-width: 344px) {
+  .cover-container-text.occupation {
+    top: 29%;
+  }
+}
