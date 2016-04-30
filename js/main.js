@@ -11,7 +11,7 @@ $(document).ready(function() {
             for (var i = 0; i < iconBars.length; i++) {
                 iconBars[i].style.backgroundColor = '#fff';
             }
-            navBar.style.background = "rgba(0,0,0,0.25)"
+            navBar.style.background = "rgba(0,0,0,0.5)"
         } else {
             hamburger.setAttribute("clicked", "false");
             setTimeout(function(){
