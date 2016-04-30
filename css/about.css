@@ -9,8 +9,9 @@ CSS styling for About section elements and components
 }
 
 .intro {
-  height: 600px;
+  height: 100%;
   min-height: 300px;
+  margin-bottom: 30px;
 }
 
 .intro-text {
