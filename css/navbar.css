@@ -1,0 +1,111 @@
+
+//override bootstrap class to add transparency
+.navbar {
+  border: none;
+  border-radius: 0;
+  background-color: rgba(0,0,0,0.5);
+}
+
+/* 
+  ============================================================================
+  Code to transform the hamburger icon to X when clicked 
+  Found at: julienmelissas.com/animated-x-icon-for-the-bootstrap-navbar-toggle
+  ============================================================================
+*/
+.navbar-toggle.collapsed .top-bar {
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+  /* Opacity for IE */
+  /* Theoretically for IE 8 & 9 (more valid) */
+  /* ...but not required as filter works too */
+  /* should come BEFORE filter */
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=100);
+  
+  /* Modern Browsers */
+  opacity: 1.0;
+}
+
+.navbar-toggle.collapsed .bottom-bar {
+  -webkit-transform: rotate(0);
+  -moz-transform: rotate(0);
+  -ms-transform: rotate(0);
+  -o-transform: rotate(0);
+  transform: rotate(0);
+}
+
+.navbar-toggle {
+  border: none;
+  background: transparent !important;
+}
+
+.navbar-toggle:hover {
+  background: transparent !important;
+}
+
+.navbar-toggle .icon-bar {
+  width: 22px;
+  
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.navbar-toggle .top-bar {
+  -webkit-transform: translateX(3px) rotate(45deg);
+  -moz-transform: translateX(3px) rotate(45deg);
+  -ms-transform: translateX(3px) rotate(45deg);
+  -o-transform: translateX(3px) rotate(45deg);
+  transform: translateX(3px) rotate(45deg);
+
+  -webkit-transform-origin: 10% 10%;
+  -moz-transform-origin: 10% 10%;
+  -ms-transform-origin: 10% 10%;
+  -o-transform-origin: 10% 10%;
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggle .middle-bar {
+  /* Opacity for IE */
+  /* Theoretically for IE 8 & 9 (more valid) */
+  /* ...but not required as filter works too */
+  /* should come BEFORE filter */
+  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=0);
+  
+  /* Modern Browsers */
+  opacity: 0.0;
+}
+
+.navbar-toggle .bottom-bar {
+  -webkit-transform: translateX(3px) rotate(-45deg);
+  -moz-transform: translateX(3px) rotate(-45deg);
+  -ms-transform: translateX(3px) rotate(-45deg);
+  -o-transform: translateX(3px) rotate(-45deg);
+  transform: translateX(3px) rotate(-45deg);
+
+  -webkit-transform-origin: 10% 90%;
+  -moz-transform-origin: 10% 90%;
+  -ms-transform-origin: 10% 90%;
+  -o-transform-origin: 10% 90%;
+  transform-origin: 10% 90%;
+}
+/* 
+  ============================================================================
+  End of hamburger to X transition
+  ============================================================================
+*/
