@@ -105,6 +105,7 @@ strong {
   letter-spacing: 2px;
 }
 
+
 @media (max-width: 900px) {
   .container {
     min-height: initial;
