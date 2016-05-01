@@ -23,5 +23,11 @@ CSS styling for Projects section elements and components
 }
 
 .projects-section.entry-text {
-  color: white
+  color: white;
+  text-align: left;
+  max-width: none;
+  margin: 30px 30px 30px 30px;
 }
+
+.projects-section a {color:#e74c3c;}
+
