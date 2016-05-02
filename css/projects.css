@@ -8,12 +8,6 @@ CSS styling for Projects section elements and components
   background-color: #e74c3c;
 }
 
-.projects-bg-image {
-  position: absoulute;
-  top: 0;
-  left: 0;
-}
-
 .projects-container {
   background-color: rgba(0,0,0,0.75);
   position:absolute;    
