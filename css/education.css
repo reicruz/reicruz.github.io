@@ -43,7 +43,7 @@ CSS styling for Education section elements and components
 
 .course-btn:hover, 
 .course-btn:active,
-.course-btn:focus,
+.course-btn:focus
  {
   background-color: rgba(0,0,0,0.75);
   border-color: black;
