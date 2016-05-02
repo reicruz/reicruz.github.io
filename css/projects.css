@@ -9,11 +9,12 @@ CSS styling for Projects section elements and components
 }
 
 .projects-container {
-  background-color: rgba(0,0,0,0.75);
+  background-color: rgba(0,0,0,0);
   position:absolute;    
   left:0%;
   top:0%;
-  overflow-y:visible;
+  height: 100%;
+  overflow-y: visible;
 }
 
 .projects-section.entry-text {
@@ -24,7 +25,10 @@ CSS styling for Projects section elements and components
 }
 
 .row-container {
-  margin: 70px 10%;
+  background-color: rgba(0,0,0,0.75);
+  margin: 70px 5%;
+  overflow-y: scroll;
+  height: 100%;
 }
 
 .projects-section p {
