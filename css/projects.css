@@ -19,7 +19,7 @@ CSS styling for Projects section elements and components
   position:absolute;    
   left:0%;
   top:0%;
-  overflow-y:scroll;
+  overflow-y:visible;
 }
 
 .projects-section.entry-text {

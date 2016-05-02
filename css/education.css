@@ -33,27 +33,27 @@ CSS styling for About section elements and components
   margin: 5% 5% 5% 5%;
 }
 
-.gpa {
-  display: none;
+.course-btn {
+  margin-top: 20px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  border-color: black;
 }
 
-@media (max-width: 350px) { 
-  .gpa {
-    display: inline;
-    font-size:18px;
-    position: absolute;
-    top:15%;
-    left: 60%;
-  }
-  .gt-paragraph {
-    display: none;
-  }
+.course-btn:hover, 
+.course-btn:active,
+.course-btn:focus,
+ {
+  background-color: rgba(0,0,0,0.75);
+  border-color: black;
 }
 
-@media (max-width: 535px) {
-    .gt-text > ul {
-      display: none;
-    }
+.modal-dialog {
+  width: 80%;
+}
+
+.modal-header {
+  background-color: #f1c40f;
 }
 
 @media (max-width: 735px) {
@@ -70,6 +70,17 @@ CSS styling for About section elements and components
   .text-box {
     vertical-align: top;
   }
+
+  .course-btn {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 535px) {
+    .gt-text > ul {
+      display: none;
+    }
 }
 
 @media (max-width: 513px) {
@@ -83,5 +94,27 @@ CSS styling for About section elements and components
     height: 100%;
     top:0;
     background-color: rgba(0,0,0,0.5);
+  }
+}
+
+@media (max-width: 400px) { 
+  .gpa {
+    display: inline;
+    font-size:18px;
+    position: absolute;
+    top:15%;
+    left: 60%;
+  }
+  .gt-paragraph {
+    display: none;
+  }
+
+  .course-btn {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .text-box {
+    vertical-align: middle;
   }
 }
