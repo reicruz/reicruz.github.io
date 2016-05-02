@@ -24,6 +24,14 @@ CSS styling for Footer section elements and components
   margin-bottom: 25px;
 }
 
+.arrow {
+  position: absolute;
+  top: 0;
+  text-align: center;
+  margin-top: 20px;
+  width: 100%;
+}
+
 .footer-section.fa {
   color: #fff;
 }

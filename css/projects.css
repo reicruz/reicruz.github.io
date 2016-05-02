@@ -26,11 +26,11 @@ CSS styling for Projects section elements and components
   color: white;
   text-align: left;
   max-width: none;
-  margin: 30px 30px 30px 30px;
+  margin: 50px 30px 30px 30px;
 }
 
 .row-container {
-  margin: 40px
+  margin-top: 40px
 }
 
 .projects-section p {

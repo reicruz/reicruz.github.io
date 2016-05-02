@@ -35,4 +35,6 @@ $(document).ready(function() {
 
     // Smooth scrolling for links
     $('#nav-jumps').localScroll({duration:800});
+    $('#arrow-up-jump').localScroll({duration:1000});
+
 });
