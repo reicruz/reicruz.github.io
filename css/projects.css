@@ -29,6 +29,10 @@ CSS styling for Projects section elements and components
   margin: 30px 30px 30px 30px;
 }
 
+.row-container {
+  margin: 40px
+}
+
 .projects-section p {
   margin-bottom: 20px
 }
