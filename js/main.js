@@ -1,3 +1,8 @@
+/**
+* @author Reinaldo Cruz
+*
+**/
+
 $(document).ready(function() {
     // Onclick listener to change colors on navigation menu
     function hamburgerClick() {
