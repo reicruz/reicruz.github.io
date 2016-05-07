@@ -36,3 +36,13 @@ CSS styling for Cover section elements and components.
     top: 30%;
   }
 }
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+  .cover-container-title.occupation {
+    top: 35%;
+  }
+}
