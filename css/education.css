@@ -59,7 +59,7 @@ CSS styling for Education section elements and components
   background-color: #f1c40f;
 }
 
-@media (max-width: 784px) {
+@media (max-width: 892px) {
   .gt-cover-text {
     font-size: 14px;
   }
@@ -80,7 +80,7 @@ CSS styling for Education section elements and components
 }
 
 
-@media (max-width: 593px) {
+@media (max-width: 643px) {
     .gt-text > ul {
       display: none;
     }
@@ -100,7 +100,7 @@ CSS styling for Education section elements and components
   }
 }
 
-@media (max-width: 400px) { 
+@media (max-width: 577px) { 
   .gpa {
     display: inline;
     font-size:18px;
