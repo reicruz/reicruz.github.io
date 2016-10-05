@@ -1,6 +1,6 @@
 /**
 * @author Reinaldo Cruz
-*
+* Scrips for loading menu and smooth scrolling
 **/
 
 $(document).ready(function() {
@@ -31,15 +31,13 @@ $(document).ready(function() {
     // Collapse menu when link is clicked
     function hamburgerCollapse() {
         $('.collapse').collapse('hide')
-        hamburgerClick()       
+        hamburgerClick()
     }
 
     document.getElementById("hamburger").onclick = hamburgerClick;
     document.getElementById("nav-jumps").onclick = hamburgerCollapse;
 
-
     // Smooth scrolling for links
     $('#nav-jumps').localScroll({duration:800});
     $('#arrow-up-jump').localScroll({duration:1000});
-
 });
