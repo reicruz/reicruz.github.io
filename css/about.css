@@ -28,7 +28,7 @@ CSS styling for About section elements and components
 }
 
 
-/*======================================================================== 
+/*========================================================================
 Credit to Amey Raut for the awesome CSS styling for the social buttons
 http://codepen.io/ameyraut/pen/yfzog
 ========================================================================*/
@@ -63,23 +63,30 @@ http://codepen.io/ameyraut/pen/yfzog
     transition: all 0.3s ease-in-out;
 }
 
-.social-icons.icon-circle .fa{ 
+.social-icons.icon-circle .fa{
     border-radius: 50%;
 }
 
-.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active { 
+.social-icons.icon-rotate .fa:hover, .social-icons.icon-rotate .fa:active {
     -webkit-transform: scale(1.1) rotate(360deg);
     -moz-transform: scale(1.1) rotate(360deg);
     -ms-transform: scale(1.1) rotate(360deg);
     -o-transform: scale(1.1) rotate(360deg);
     transform: scale(1.1) rotate(360deg);
 }
- 
 
-.social-icons .fa-facebook{background-color:#3C599F;}  
-.social-icons .fa-github{background-color:#070709;} 
+.social-icons.icon-zoom .fa:hover, .social-icons.icon-zoom .fa:active {
+ 	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.social-icons .fa-facebook{background-color:#3C599F;}
+.social-icons .fa-github{background-color:#070709;}
 .social-icons .fa-instagram{background-color:#A1755C;}
-.social-icons .fa-linkedin{background-color:#0085AE;} 
-.social-icons .fa-envelope{background-color:#1abc9c;} 
+.social-icons .fa-linkedin{background-color:#0085AE;}
+.social-icons .fa-envelope{background-color:#1abc9c;}
 
 /*=======================================================================*/
