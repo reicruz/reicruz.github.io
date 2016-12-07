@@ -5,7 +5,6 @@ css/cover.css
 CSS styling for Cover section elements and components.
 */
 
-
 .cover-image {
   height: 100vh;
   width: 100vw;
@@ -37,11 +36,10 @@ CSS styling for Cover section elements and components.
   }
 }
 
-
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) 
-and (orientation : portrait) { 
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px)
+and (orientation : portrait) {
   .cover-container-title.occupation {
     top: 35%;
   }
