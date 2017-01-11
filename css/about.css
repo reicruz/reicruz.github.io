@@ -10,6 +10,17 @@ CSS styling for About section elements and components
   background-color: #2980b9;
 }
 
+.about-text-box {
+  background-color: #2980b9;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.about-text {
+  color: white;
+  font-size: 200%;
+}
+
 .intro {
   height: 100%;
   min-height: 300px;
