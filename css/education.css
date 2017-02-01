@@ -59,6 +59,10 @@ CSS styling for Education section elements and components
   background-color: #f1c40f;
 }
 
+.tab-pane ul {
+  margin: 20px 0px 20px 0px;
+}
+
 @media (max-width: 892px) {
   .gt-cover-text {
     font-size: 14px;
