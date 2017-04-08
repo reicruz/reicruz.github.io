@@ -17,3 +17,8 @@ CSS styling for Experience section elements and components
   width: auto;
   margin: 75px auto 0px auto;
 }
+
+.lifion-logo {
+  height: 20rem;
+  width: 20rem;
+}
