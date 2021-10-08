@@ -2,17 +2,21 @@ body {
   background-color: #B6A887;
 }
 
+/*
+TODO: lowered top to 45% so title is centered (accounting for sprite)
+too lazy right now to arrange the divs
+*/
 .center {
   position: absolute;
-  top: 50%;
+  top: 45%;
   left: 50%;
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-45%) translateY(-50%);
+  -webkit-transform: translateX(-45%) translateY(-50%);
+  transform: translateX(-45%) translateY(-50%);
 }
 
 .title {
-  color: #fff;
+  color: rgb(218, 214, 214);
   text-align: center;
   font-family: 'Lucida Grande', 'Lucida Sans', sans-serif;
 }
@@ -22,7 +26,7 @@ body {
 }
 
 .icon {
-  color: #fff;
+  color: rgb(218, 214, 214);
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -31,7 +35,7 @@ body {
   overflow: hidden;
   white-space: nowrap;
   padding-right: 10px;
-  border-right: .10em solid gray;
+  border-right: .10em solid ;
   animation: typing 1.5s steps(30, end), blinking-cursor 1s step-end infinite;
 }
 
@@ -43,5 +47,22 @@ body {
 @keyframes blinking-cursor {
   from,
   to { border-color: transparent }
-  50% { border-color: white }
+  50% { border-color: rgb(199, 195, 195) }
+}
+
+/* Sprite stylin' */
+
+.sprite-container {
+  width: 210px;
+  height: 75px;
+  overflow: hidden;
+}
+
+.sprite {
+  animation: moveSpritesheet 2s steps(4) infinite;
+}
+
+@keyframes moveSpritesheet {
+  from { transform: translate3d(0, 0, 0) }
+  to { transform: translate3d(0, -100%, 0) }
 }
