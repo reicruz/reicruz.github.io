@@ -1,3 +1,7 @@
+:root {
+  --text-color: #f7f7f7;
+}
+
 body {
   background-color: #B6A887;
 }
@@ -16,7 +20,7 @@ too lazy right now to arrange the divs
 }
 
 .title {
-  color: rgb(218, 214, 214);
+  color: var(--text-color);
   text-align: center;
   font-family: 'Lucida Grande', 'Lucida Sans', sans-serif;
 }
@@ -26,7 +30,7 @@ too lazy right now to arrange the divs
 }
 
 .icon {
-  color: rgb(218, 214, 214);
+  color: var(--text-color);
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -47,7 +51,7 @@ too lazy right now to arrange the divs
 @keyframes blinking-cursor {
   from,
   to { border-color: transparent }
-  50% { border-color: rgb(199, 195, 195) }
+  50% { border-color: var(--text-color) }
 }
 
 /* Sprite stylin' */
