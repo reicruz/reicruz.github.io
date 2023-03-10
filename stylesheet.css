@@ -1,5 +1,6 @@
 :root {
   --text-color: #f7f7f7;
+  --font-family: 'Lucida Grande', 'Lucida Sans', sans-serif;
 }
 
 body {
@@ -21,18 +22,14 @@ too lazy right now to arrange the divs
 
 .title {
   color: var(--text-color);
-  text-align: center;
-  font-family: 'Lucida Grande', 'Lucida Sans', sans-serif;
-}
-
-.icons {
+  font-family: var(--font-family);
   text-align: center;
 }
 
-.icon {
+.caption {
   color: var(--text-color);
-  margin-left: 10px;
-  margin-right: 10px;
+  font-family: var(--font-family);
+  text-align: center;
 }
 
 .animate {
